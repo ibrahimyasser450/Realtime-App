@@ -1,4 +1,4 @@
-<h1><div align="center">Realtime Application</div><h1>
+<h1 align="center">Realtime Application<h1>
 
 
 ## 📋 Table of Contents
