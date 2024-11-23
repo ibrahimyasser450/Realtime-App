@@ -1,4 +1,4 @@
-<div align="center" size="30"><strong>Realtime Application</strong></font></div>
+<div align="center" size="30px"><strong>Realtime Application</strong></font></div>
 
 
 ## 📋 Table of Contents
@@ -75,5 +75,5 @@ Replace the placeholder values with your actual Clerk & LiveBlocks credentials. 
 ```bash
 npm run dev
 ```
-<br>
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+<br> Open [http://localhost:3000](http://localhost:3000) in your browser to view the project. 
+
