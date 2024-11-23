@@ -1,7 +1,7 @@
-<div align="center" font= "25px"><strong>Realtime Application</strong></div>
+<div align="center"><font size="30"><strong>Realtime Application</strong></font></div>
 
 
-## 📋 Table of Contents
+<h1>📋 Table of Contents</h1>
 1. 📌 [Introduction](#introduction)
 2. 💻 [Tech Stack](#tech-stack)
 3. 🔋  [Features](#features)
@@ -11,7 +11,8 @@
 <h1 id="introduction">📌 Introduction</h1>
 Built with Next.js to handle the user interface, Liveblocks for real-time features and styled with TailwindCSS, LiveDocs is a clone of Goole Docs.<br><br>
 
-💻## Tech Stack
+💻 Tech Stack
+<h1 id="tech-stack">💻 Tech Stack</h1>
 - Next.js
 - TypeScript
 - Liveblocks
@@ -19,7 +20,7 @@ Built with Next.js to handle the user interface, Liveblocks for real-time featur
 - ShadCN
 - Tailwind CSS<br><br>
 
-🔋## Features
+<h1 id="features">🔋 Features</h1>
 ⚙  **Authentication:** User authentication using GitHub through NextAuth, ensuring secure sign-in/out and session management. 
 
 📝 **Collaborative Text Editor:** Multiple users can edit the same document simultaneously with real-time updates.  
@@ -39,6 +40,7 @@ Built with Next.js to handle the user interface, Liveblocks for real-time featur
 📱 **Responsive:** The application is responsive across all devices.<br><br>
 
 ## Quick Start
+<h1 id="quick-start">🚀 Quick Start</h1>
 Make sure you have the following installed on your machine:<br>
 - [Node.js](https://nodejs.org/en)
 - [npm](https://www.npmjs.com/)(Node Package Manager)
