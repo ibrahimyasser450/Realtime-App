@@ -40,9 +40,8 @@ Built with Next.js to handle the user interface, Liveblocks for real-time featur
 ## Quick Start
 Make sure you have the following installed on your machine:<br>
 - [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/)(Node Package Manager)<br>
-
-
+- [npm](https://www.npmjs.com/)(Node Package Manager)
+<br><br>
 **Installation**
 
 Install the project dependencies using npm:<br>
@@ -50,7 +49,7 @@ Install the project dependencies using npm:<br>
 ```bash
 npm install
 ```
-
+<br><br>
 **Set Up Environment Variables**
 
 Create a new file named .env in the root of your project and add the following content:<br>
