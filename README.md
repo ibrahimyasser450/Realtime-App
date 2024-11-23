@@ -1,10 +1,10 @@
-<div align="center" style="text-decoration: none; font-size: 20px;"><strong>Realtime Application</strong></div>
+<div align="center" font-size= "25px"><strong>Realtime Application</strong></div>
 
 
 ## 📋 Table of Contents
-1. 📌 [Introduction](#introduction)
-2. 💻 [Tech Stack](#tech-stack)
-3. 🔋  [Features](#features)
+1. 📌 [Introduction](#Introduction)
+2. 💻 [Tech Stack](#Tech-Stack)
+3. 🔋  [Features](#Features)
 4. 🚀 [Quick Start](#quick-start)<br><br>
 
 ## 📌 Introduction
