@@ -1,4 +1,4 @@
-<h1 style="text-decoration: none; text-align: center;">Realtime Application</h1>
+<div align="center" style="text-decoration: none; font-size: 20px;"><strong>Realtime Application</strong></div>
 
 
 ## 📋 Table of Contents
@@ -41,6 +41,7 @@ Built with Next.js to handle the user interface, Liveblocks for real-time featur
 Make sure you have the following installed on your machine:<br>
 - [Node.js](https://nodejs.org/en)
 - [npm](https://www.npmjs.com/)(Node Package Manager)
+
 <br><br>
 **Installation**
 
@@ -65,7 +66,7 @@ NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 NEXT_PUBLIC_LIVEBLOCKS_PUBLIC_KEY=
 LIVEBLOCKS_SECRET_KEY=
 ```
-<br>
+<br><br>
 Replace the placeholder values with your actual Clerk & LiveBlocks credentials. You can obtain these credentials by signing up on the [Clerk](https://clerk.com/) and [LiveBlocks](https://liveblocks.io/) website.  
 
 **Running the Project**  
