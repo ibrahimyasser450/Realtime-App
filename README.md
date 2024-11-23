@@ -1,4 +1,4 @@
-<h2 align="center">Realtime Application</h2><br><br><br><br>
+<h2 align="center">Realtime Application</h2><br><br><br>
 
 ## 📋 Table of Contents
 1. 📌 [Introduction](#introduction)
