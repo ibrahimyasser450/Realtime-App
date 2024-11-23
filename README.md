@@ -1,6 +1,26 @@
-This is a [Introduction](https://github.com/ibrahimyasser450/Realtime-App?tab=readme-ov-file#introduction) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h2 align="center">Realtime Application</h2>
 
-## Getting Started
+## 📋 Table of Contents
+1. 📌 [Introduction](#introduction)
+2. 💻 [Tech Stack](#tech-stack)
+3. 🔋  [Features](#features)
+4. 🚀 [Quick Start](#quick-start)
+   
+
+## 📌 Introduction
+Built with Next.js to handle the user interface, Liveblocks for real-time features and styled with TailwindCSS, LiveDocs is a clone of Goole Docs.
+
+## 💻 Tech Stack
+- Next.js
+- TypeScript
+- Liveblocks
+- Lexical Editor
+- ShadCN
+- Tailwind CSS
+
+## 🔋 Features
+⚙  **Authentication:** User authentication using GitHub through NextAuth, ensuring secure sign-in/out and session management.  
+📃 **Collaborative Text Editor:** Multiple users can edit the same document simultaneously with real-time updates.
 
 First, run the development server:
 
