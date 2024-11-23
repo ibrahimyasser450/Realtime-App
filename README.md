@@ -1,27 +1,23 @@
-<div align="center">Realtime Application</div>
+<h1 style="text-decoration: none; text-align: center;">Realtime Application</h1>
 
 
 ## 📋 Table of Contents
 1. 📌 [Introduction](#introduction)
 2. 💻 [Tech Stack](#tech-stack)
 3. 🔋  [Features](#features)
-4. 🚀 [Quick Start](#quick-start)
-
-     
+4. 🚀 [Quick Start](#quick-start)<br><br>
 
 ## 📌 Introduction
-Built with Next.js to handle the user interface, Liveblocks for real-time features and styled with TailwindCSS, LiveDocs is a clone of Goole Docs.
+Built with Next.js to handle the user interface, Liveblocks for real-time features and styled with TailwindCSS, LiveDocs is a clone of Goole Docs.<br><br>
 
-  
 ## 💻 Tech Stack
 - Next.js
 - TypeScript
 - Liveblocks
 - Lexical Editor
 - ShadCN
-- Tailwind CSS
+- Tailwind CSS<br><br>
 
-  
 ## 🔋 Features
 ⚙  **Authentication:** User authentication using GitHub through NextAuth, ensuring secure sign-in/out and session management. 
 
@@ -39,18 +35,17 @@ Built with Next.js to handle the user interface, Liveblocks for real-time featur
 
 🔔 **Notifications:** Notify users of document shares, new comments, and collaborator activities.  
 
-📱 **Responsive:** The application is responsive across all devices.  
-
+📱 **Responsive:** The application is responsive across all devices.<br><br>
 
 ## Quick Start
-Make sure you have the following installed on your machine:  
-
+Make sure you have the following installed on your machine:<br>
 - [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/)(Node Package Manager)
+- [npm](https://www.npmjs.com/)(Node Package Manager)<br>
+
 
 **Installation**
 
-Install the project dependencies using npm:
+Install the project dependencies using npm:<br>
 
 ```bash
 npm install
@@ -58,7 +53,7 @@ npm install
 
 **Set Up Environment Variables**
 
-Create a new file named .env in the root of your project and add the following content:  
+Create a new file named .env in the root of your project and add the following content:<br>
 
 ```bash
 #Clerk
@@ -71,7 +66,7 @@ NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 NEXT_PUBLIC_LIVEBLOCKS_PUBLIC_KEY=
 LIVEBLOCKS_SECRET_KEY=
 ```
-
+<br>
 Replace the placeholder values with your actual Clerk & LiveBlocks credentials. You can obtain these credentials by signing up on the [Clerk](https://clerk.com/) and [LiveBlocks](https://liveblocks.io/) website.  
 
 **Running the Project**  
@@ -79,5 +74,5 @@ Replace the placeholder values with your actual Clerk & LiveBlocks credentials. 
 ```bash
 npm run dev
 ```
-
+<br>
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
