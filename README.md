@@ -7,7 +7,8 @@
 3. 🔋  [Features](#features)
 4. 🚀 [Quick Start](#quick-start)<br><br>
 
-📌## Introduction
+
+<h1 id="introduction">📌 Introduction</h1>
 Built with Next.js to handle the user interface, Liveblocks for real-time features and styled with TailwindCSS, LiveDocs is a clone of Goole Docs.<br><br>
 
 💻## Tech Stack
