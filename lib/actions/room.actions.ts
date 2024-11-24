@@ -161,3 +161,14 @@ export const deleteDocument = async (roomId: string) => {
     console.log(`Error happened while deleting a room: ${error}`);
   }
 };
+
+export const getDocumentsByEmail = async (email: string) => {
+  try {
+    const rooms = await liveblocks.getRooms({ userId: email });
+    const creatorId = rooms.data[0]?.metadata.creatorId;
+
+    return parseStringify(creatorId);
+  } catch (error) {
+    console.log(`Error happened while getting rooms: ${error}`);
+  }
+};
