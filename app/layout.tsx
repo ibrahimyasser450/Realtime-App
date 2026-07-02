@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import { ClerkProvider } from "@clerk/nextjs";
 import { dark } from "@clerk/themes";
 import Provider from "./Provider";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
   title: "LiveDocs",
@@ -36,6 +37,7 @@ export default function RootLayout({
           )}
         >
           <Provider>{children}</Provider>
+          <SpeedInsights />
         </body>
       </html>
     </ClerkProvider>
