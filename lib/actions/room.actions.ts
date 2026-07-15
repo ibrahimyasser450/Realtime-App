@@ -74,7 +74,7 @@ export const updateDocument = async (roomId: string, title: string) => {
   }
 };
 
-export const getDocuments = async (email: string) => {
+export const getDocumentsByEmail = async (email: string) => {
   try {
     const rooms = await liveblocks.getRooms({ userId: email });
 
