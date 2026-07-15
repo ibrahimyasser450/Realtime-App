@@ -73,11 +73,11 @@ export default function ToolbarPlugin() {
       }),
       editor.registerCommand(
         SELECTION_CHANGE_COMMAND,
-        (_payload, _newEditor) => {
+        () => {
           $updateToolbar();
           return false;
         },
-        LowPriority
+        LowPriority,
       ),
       editor.registerCommand(
         CAN_UNDO_COMMAND,
@@ -85,7 +85,7 @@ export default function ToolbarPlugin() {
           setCanUndo(payload);
           return false;
         },
-        LowPriority
+        LowPriority,
       ),
       editor.registerCommand(
         CAN_REDO_COMMAND,
@@ -93,8 +93,8 @@ export default function ToolbarPlugin() {
           setCanRedo(payload);
           return false;
         },
-        LowPriority
-      )
+        LowPriority,
+      ),
     );
   }, [editor, $updateToolbar]);
 
@@ -257,7 +257,7 @@ function useActiveBlock() {
     (onStoreChange: () => void) => {
       return editor.registerUpdateListener(onStoreChange);
     },
-    [editor]
+    [editor],
   );
 
   const getSnapshot = useCallback(() => {

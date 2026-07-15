@@ -41,7 +41,7 @@ export default function FloatingToolbar() {
           anchor.getNode(),
           anchor.offset,
           focus.getNode(),
-          focus.offset
+          focus.offset,
         );
 
         setRange(range);
@@ -113,7 +113,7 @@ function Toolbar({
           onClick={() => {
             const isOpen = editor.dispatchCommand(
               OPEN_FLOATING_COMPOSER_COMMAND,
-              undefined
+              undefined,
             );
             if (isOpen) {
               onRangeChange(null);
@@ -130,7 +130,7 @@ function Toolbar({
         </button>
       </div>
     </div>,
-    container
+    container,
   );
 }
 
@@ -195,7 +195,7 @@ export function createDOMRange(
   anchorNode: LexicalNode,
   _anchorOffset: number,
   focusNode: LexicalNode,
-  _focusOffset: number
+  _focusOffset: number,
 ): Range | null {
   const anchorKey = anchorNode.getKey();
   const focusKey = focusNode.getKey();
@@ -245,7 +245,7 @@ export function createDOMRange(
   try {
     range.setStart(anchorDOM, anchorOffset);
     range.setEnd(focusDOM, focusOffset);
-  } catch (e) {
+  } catch {
     return null;
   }
 
